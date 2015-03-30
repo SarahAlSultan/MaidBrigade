@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Maid Brigade</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="maidbrigadelogo">MaidBrigadeLogo</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_home_page">Home Page</string>
+    <string name="title_activity_user_profile">Profile</string>
+    <string name="title_activity_main">Maid Brigade</string>
+    <string name="title_activity_launch_page">Maid Brigade</string>
+    <string name="mblogo">mdlogo</string>
+    <string name="title_activity_activity_gcthank_you">Gift Certificate</string>
+    <string name="title_activity_activity_gift_certificate">Gift Certificate</string>
+    <string name="title_activity_activity_qcthank_you">Coupon</string>
+    <string name="title_activity_activity_quality_card">Quality Card</string>
+    <string name="title_activity_activity_sign_in">Sign In</string>
+    <string name="title_activity_activity_sign_up">Sign Up</string>
+    <string name="title_activity_password_reset">Password Reset</string>
+    <string name="title_activity_free_estimate">Free Estimate</string>
+    <string name="title_activity_request_sent">Request Sent</string>
+    <string name="title_activity_why_hair_us_page">Why Hair Us</string>
+
+    <string name="title_activity_job">Job Opportunities</string>
+    <string name="jobTitle">Housecleaning Specialists</string>
+    <string name="JobDES">Maid Brigade, the most sought after home cleaning and maid service, is looking for people to join our housecleaning teams. Our clients expect superior service for our maid service and cleaning sesrvices. We take the time to train our emloyees plus provide cars and phones to keep service at its best.
+        This is a full-time position with no nights or weekends. Would you like to be part of a great team of cleaners and a growing company?</string>
+    <string name="call">Call 013-5731931 today and set up an appointment now. No resume, and no cover LETTER needed. We want to meet you.</string>
+    <string name="title_activity_green__cleaning_page">Green Cleaning</string>
+    <string name="GreenTitle">COMMITTED TO GREEN CLEANING FOR HEALTH</string>
+
+    <string name="Top10">Top 10 Reasons People Choose Maid Brigade </string>
+    <string name="heading">People choose Maid Brigade because they want a house cleaning company that</string>
+    <string name="res1"> 1-is reliable and consistent</string>
+    <string name="res2"> 2-is affordable</string>
+    <string name="res3"> 3-looks out for your health with green cleaning</string>
+    <string name="res4"> 4-takes pride in customer service</string>
+    <string name="res5"> 5-screens, trains and CERTIFIES every maid</string>
+    <string name="res6"> 6-uses tested and proven methods</string>
+    <string name="res7"> 7-has established standard house cleaning procedures – every maid team, every cleaning</string>
+    <string name="res8"> 8-learns your needs quickly</string>
+    <string name="res9"> 9-complies with federal, state and local labor and tax laws and carries adequate insurance</string>
+    <string name="res10"> 10-brings their own green maid service equipment and supplies</string>
+
+    <string name="Home">Home</string>
+    <string name="User">User Profile</string>
+    <string name="Free">Get A Free Estimate</string>
+    <string name="Quality">Quality Card</string>
+    <string name="Gift">Gift Certificate</string>
+    <string name="job">Job Opportunities</string>
+    <string name="Green">Green Cleaning</string>
+    <string name="Why">Why Hair us?</string>
+    <string name="Contact">Contact us</string>
+    <string-array name="Fp">
+        <item>Payment Type</item>
+        <item>Cash</item>
+        <item>Bank Transfer</item>
+    </string-array>
+    <string-array name="Fs">
+        <item>Square Meter</item>
+        <item>0-100</item>
+        <item>100-200</item>
+        <item>200-300</item>
+        <item>300-400</item>
+        <item>400-500</item>
+        <item>500-600</item>
+        <item>600-700</item>
+        <item>700-800</item>
+        <item>800+</item>
+    </string-array>
+    <string-array name="ff">
+        <item>Service Frequency</item>
+        <item>Weekly</item>
+        <item>Bi-Weekly</item>
+        <item>Monthly</item>
+        <item>Special Occasion</item>
+        <item>MoveIn/MoveOut</item>
+    </string-array>
+    <string-array name="Gift">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+    <string name="title_activity_free_estimate2">Free Estimate</string>
+</resources>

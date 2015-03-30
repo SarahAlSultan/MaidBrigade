@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maidbrigade.maidbrigade.activity_sign_up">
+    <item android:id="@+id/Home" android:title="@string/Home"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/User" android:title="@string/User"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/Free" android:title="@string/Free"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/Quality" android:title="@string/Quality"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/Gift" android:title="@string/Gift"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/job" android:title="@string/job"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Green" android:title="@string/Green"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Why" android:title="@string/Why"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Contact" android:title="@string/Contact"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

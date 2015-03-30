@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    tools:context="com.maidbrigade.maidbrigade.ContactUsActivity"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mblogo"
+        android:src="@drawable/maidbrigadelogo"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mblogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:id="@+id/twittericon"
+        android:src="@drawable/twitter"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:layout_below="@+id/phoneicon"
+        android:layout_alignRight="@+id/phoneicon"
+        android:layout_alignEnd="@+id/phoneicon"
+        android:layout_marginTop="35dp" />
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="55dp"
+        android:id="@+id/camicon"
+        android:src="@drawable/insta"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:layout_below="@+id/twittericon"
+        android:layout_alignRight="@+id/phoneicon"
+        android:layout_alignEnd="@+id/phoneicon"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:id="@+id/mailicon"
+        android:src="@drawable/mail"
+        android:adjustViewBounds="true"
+        android:scaleType="fitStart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/camicon"
+        android:layout_alignEnd="@+id/camicon" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneicon"
+        android:src="@drawable/phoneblack"
+        android:paddingTop="8dp"
+        android:scaleType="fitStart"
+        android:layout_below="@+id/message"
+        android:layout_toLeftOf="@+id/email_acc"
+        android:layout_toStartOf="@+id/email_acc"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentBottom="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0135731931"
+        android:id="@+id/office_num"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@MaidBrigadeksa"
+        android:id="@+id/twitter_acc"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/twittericon"
+        android:layout_toRightOf="@+id/camicon"
+        android:layout_toEndOf="@+id/camicon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@Maid_Brigade"
+        android:id="@+id/insta_acc"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:layout_alignBottom="@+id/camicon"
+        android:layout_toRightOf="@+id/twittericon"
+        android:layout_toEndOf="@+id/twittericon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kalsuliman@maidbrigade.com"
+        android:id="@+id/email_acc"
+        android:typeface="serif"
+        android:textSize="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/office_num"
+        android:layout_alignStart="@+id/office_num" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us at Any Time."
+        android:id="@+id/message"
+        android:typeface="serif"
+        android:textSize="25dp"
+        android:textColor="#ff004785"
+        android:layout_below="@+id/mblogo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

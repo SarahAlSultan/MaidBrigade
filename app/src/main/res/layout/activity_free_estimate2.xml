@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/date"
+
+    tools:context="com.maidbrigade.maidbrigade.FreeEstimate2">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Your Estimate"
+        android:id="@+id/button"
+        android:background="#ff004785"
+        android:textColor="#ffffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/datePicker"
+        android:layout_alignStart="@+id/datePicker" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_above="@+id/button"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@+id/datePicker"
+        android:layout_alignStart="@+id/datePicker" />
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

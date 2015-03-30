@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.maidbrigade.maidbrigade.HomePageActivity"
+    android:background="#ffffffff">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Page"
+        android:id="@+id/Main_button"
+        android:enabled="true"
+        android:nestedScrollingEnabled="false"
+        android:singleLine="false"
+        android:textColor="#ff000000"
+        android:backgroundTint="#0032a0ff"
+        android:layout_above="@+id/free_estimate_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Free Estimate"
+        android:id="@+id/free_estimate_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/gcard_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gift Cirtificate"
+        android:id="@+id/gcard_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/qcard_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quality Card"
+        android:id="@+id/qcard_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/hire_us_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Hire Us?"
+        android:id="@+id/hire_us_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/gcleaning_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green Cleaning"
+        android:id="@+id/gcleaning_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/job_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Job Oppertunities"
+        android:id="@+id/job_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_above="@+id/contact_us_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:id="@+id/contact_us_button"
+        android:backgroundTint="#00ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#FFFFFFFF" />
+
+</RelativeLayout>

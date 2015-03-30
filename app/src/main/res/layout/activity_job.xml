@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.maidbrigade.maidbrigade.job"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:id="@+id/job_text2"
+        android:textColor="#ff114984"
+        android:textSize="15dp"
+        android:typeface="serif"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/job_text1"
+        android:layout_alignStart="@+id/job_text1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/JobDES"
+        android:id="@+id/job_text1"
+        android:textSize="18sp"
+        android:textColor="#ff334eac"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:layout_above="@+id/job_text2"
+        android:layout_alignLeft="@+id/job_header"
+        android:layout_alignStart="@+id/job_header"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_header"
+        android:src="@drawable/job"
+        android:scaleType="fitStart"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

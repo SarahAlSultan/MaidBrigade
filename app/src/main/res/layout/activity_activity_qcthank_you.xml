@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.maidbrigade.maidbrigade.activity_qcthank_you"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thank You"
+        android:id="@+id/thank_you_q"
+        android:textColor="#ff004785"
+        android:typeface="serif"
+        android:textSize="48dp"
+        android:textIsSelectable="false"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="For Filling The Quality Card Evaluation Form."
+        android:id="@+id/thank_you_messq1"
+        android:textColor="#ff384a78"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_below="@+id/thank_you_q"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:id="@+id/no10"
+        android:layout_marginTop="48dp"
+        android:textColor="#ff004785"
+        android:textSize="110dp"
+        android:typeface="serif"
+        android:layout_below="@+id/thank_you_messq1"
+        android:layout_alignLeft="@+id/coupon_code"
+        android:layout_alignStart="@+id/coupon_code"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:id="@+id/percent"
+        android:textColor="#ff004785"
+        android:textSize="50dp"
+        android:typeface="serif"
+        android:layout_above="@+id/off_text"
+        android:layout_toRightOf="@+id/no10"
+        android:layout_toEndOf="@+id/no10"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:id="@+id/off_text"
+        android:textSize="50dp"
+        android:typeface="serif"
+        android:textColor="#ff004785"
+        android:layout_alignBottom="@+id/no10"
+        android:layout_toRightOf="@+id/no10"
+        android:layout_toEndOf="@+id/no10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coupon Code:"
+        android:id="@+id/coupon_code"
+        android:textColor="#ff000000"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:layout_below="@+id/no10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get 10% OFF Your Next Reservation."
+        android:id="@+id/coupon_mess"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textColor="#fff8991d"
+        android:textSize="15dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This Coupon Will Be Valid for two Weeks."
+        android:id="@+id/textView"
+        android:textColor="#ff384a78"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/thank_you_messq1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.maidbrigade.maidbrigade.MainActivity"
+    android:background="#ffffffff">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/offer_image"
+        android:src="@drawable/offer_10per"
+        android:scaleType="fitEnd"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/sing_in_button"
+        android:layout_alignStart="@+id/sing_in_button"
+        android:layout_marginTop="59dp"
+        android:paddingTop="30dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_imagebutton"
+        android:src="@drawable/sign_up"
+        android:scaleType="fitStart"
+        android:background="#00ffffff"
+        android:layout_below="@+id/sing_in_button"
+        android:layout_alignLeft="@+id/offer_image"
+        android:layout_alignStart="@+id/offer_image" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/sing_in_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:background="#50014785"
+        android:textSize="20dp"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

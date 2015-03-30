@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.maidbrigade.maidbrigade.activity_gift_certificate"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Recipient Information"
+        android:id="@+id/recipent_info_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:typeface="serif"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:textColor="#ff004785"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="We&apos;ll personalize the certificate for your recipient. If you don&apos;t know the recipient then leave these fields blank."
+        android:id="@+id/g_card_text"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/recipent_info_title"
+        android:layout_alignLeft="@+id/recipent_info_title"
+        android:layout_alignStart="@+id/recipent_info_title"
+        android:paddingTop="9dp"
+        android:elegantTextHeight="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Recipient Name"
+        android:ems="10"
+        android:id="@+id/recipent_name"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/g_card_text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/personal_mess"
+        android:text="Personal Message"
+        android:width="300dp" android:height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/recipent_name"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignRight="@+id/recipent_name"
+        android:layout_alignEnd="@+id/recipent_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Gift Certificate Amount"
+        android:id="@+id/g_amount_title"
+        android:layout_below="@+id/personal_mess"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:typeface="serif"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ff004785" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Once the recipient receives the gift certificate, all they need to do is simply contact our office to schedule service."
+        android:id="@+id/g_card_text2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_above="@+id/submit_button"
+        android:layout_alignLeft="@+id/submit_button"
+        android:layout_alignStart="@+id/submit_button"
+        android:paddingBottom="9dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit_button"
+        android:background="#ff004785"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Amount"
+        android:id="@+id/ampunt_text"
+        android:layout_below="@+id/g_amount_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+        android:spinnerMode="dropdown"
+        android:layout_toRightOf="@+id/ampunt_text"
+        android:layout_alignRight="@+id/recipent_info_title"
+        android:layout_alignEnd="@+id/recipent_info_title"
+        android:layout_alignTop="@+id/ampunt_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"/>
+
+</RelativeLayout>

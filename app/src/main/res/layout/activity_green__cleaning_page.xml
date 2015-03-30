@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.maidbrigade.maidbrigade.green__cleaning_page"
+    android:background="#ffffffff">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/green_seal2"
+        android:src="@drawable/greenbusinesssealofapproval"
+        android:maxWidth="100dp"
+        android:minHeight="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/g_cleaning_text"
+        android:layout_alignEnd="@+id/g_cleaning_text"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Maid Brigade takes green cleaning very seriously. So much so that,even if we never perform our miraculous house cleaning service in your home, we want you to be aware of the hidden risks ASSOCIATED with typical house cleaning services.
+
+    Of course,we’d love to clean for you! (Hint, hint.)  Just the same, we believe all consumers should be able to make informed decisions about the house cleaning chemicals brought into your home, for your family’s sake.
+
+    That’s why we launched our Consumer Health Advocacy initiative – to bring you these convenient,helpful videos, infographics, e-guides, Marie’s Blog and now, Clean Green Talk radio show co-hosted by renowned green cleaning coach Leslie Reichert and our own Consumer Health Advocate, Marie Stegner."
+        android:id="@+id/g_cleaning_text"
+        android:textSize="15sp"
+        android:textColor="#ff334eac"
+        android:backgroundTint="#00ffffff"
+        android:autoText="false"
+        android:singleLine="false"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/green_cleaning_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/green_seal1"
+        android:src="@drawable/greenseal"
+        android:layout_alignLeft="@+id/g_cleaning_text"
+        android:layout_alignStart="@+id/g_cleaning_text"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/green_cleaning_title"
+        android:text="@string/GreenTitle"
+        android:textSize="15sp"
+        android:textColor="#ff152f70"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@+id/green_seal2"
+        android:backgroundTint="#00ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

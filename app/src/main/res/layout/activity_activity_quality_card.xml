@@ -1,0 +1,284 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    tools:context="com.maidbrigade.maidbrigade.activity_quality_card"
+    android:background="#ffffffff">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filling out a Quality Card is your opportunity to evaluate each and every Maid Brigade cleaning,so we can live up to our guarantee of sparkling customer service.Your comments are extremely valuable to us and we'll take them to heart "
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView13"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:layout_below="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:text="Order Number"
+        android:layout_below="@+id/editText11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText11"
+        android:layout_alignEnd="@+id/editText11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_below="@+id/editText13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Street Address"
+        android:layout_alignRight="@+id/editText13"
+        android:layout_alignEnd="@+id/editText13" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText14"
+        android:layout_below="@+id/editText12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Email"
+        android:layout_alignRight="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Please rate the quality of our cleaning services for the particular appointment specified .Refer to the quality card your team  "
+        android:id="@+id/textView15"
+        android:layout_below="@+id/editText14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dusting"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Employee Name"
+        android:ems="10"
+        android:id="@+id/editText15"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15" />
+
+
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+              <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bathrooms"
+        android:id="@+id/textView12"
+        android:paddingTop="17sp"
+        android:layout_toLeftOf="@+id/ratingBar"
+        android:layout_toStartOf="@+id/ratingBar"
+        android:layout_alignTop="@+id/ratingBar"
+        android:layout_alignBottom="@+id/ratingBar" />
+
+              <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/editText15"
+        android:layout_alignRight="@+id/editText15"
+        android:layout_alignEnd="@+id/editText15" />
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitchen"
+                android:id="@+id/textView22"
+                android:paddingTop="17sp"
+                android:layout_toLeftOf="@+id/ratingBar"
+                android:layout_toStartOf="@+id/ratingBar"
+                android:layout_alignTop="@+id/ratingBar"
+                android:layout_alignBottom="@+id/ratingBar"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar3"
+                android:layout_below="@+id/editText15"
+                android:layout_alignRight="@+id/editText15"
+                android:layout_alignEnd="@+id/editText15"
+                android:layout_marginLeft="21dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dusting"
+                android:id="@+id/textView20"
+                android:paddingTop="17sp"
+                android:layout_toLeftOf="@+id/ratingBar"
+                android:layout_toStartOf="@+id/ratingBar"
+                android:layout_alignTop="@+id/ratingBar"
+                android:layout_alignBottom="@+id/ratingBar"
+                 />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar1"
+                android:layout_below="@+id/editText15"
+                android:layout_alignRight="@+id/editText15"
+                android:layout_alignEnd="@+id/editText15"
+                android:layout_marginLeft="21dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vacuming"
+                android:id="@+id/textView21"
+                android:paddingTop="17sp"
+                android:layout_toLeftOf="@+id/ratingBar"
+                android:layout_toStartOf="@+id/ratingBar"
+                android:layout_alignTop="@+id/ratingBar"
+                android:layout_alignBottom="@+id/ratingBar"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar2"
+                android:layout_below="@+id/editText15"
+                android:layout_alignRight="@+id/editText15"
+                android:layout_alignEnd="@+id/editText15"
+                android:layout_marginLeft="7dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overall"
+                android:id="@+id/textView23"
+                android:paddingTop="17sp"
+                android:layout_toLeftOf="@+id/ratingBar"
+                android:layout_toStartOf="@+id/ratingBar"
+                android:layout_alignTop="@+id/ratingBar"
+                android:layout_alignBottom="@+id/ratingBar"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar4"
+                android:layout_below="@+id/editText15"
+                android:layout_alignRight="@+id/editText15"
+                android:layout_alignEnd="@+id/editText15"
+                android:layout_marginLeft="26dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Evaluation"
+            android:id="@+id/button"
+            android:background="#ff004785"
+            android:textColor="#ffffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/datePicker"
+            android:layout_alignStart="@+id/datePicker" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</RelativeLayout>
